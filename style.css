@@ -1,0 +1,22 @@
+.carousel{
+  height: 330px;;
+  background-color: #BBB;
+
+}
+.card-img{
+  height: 200px;
+}
+
+.ad, #tabs{
+  float: left;
+}
+.ad{
+  width: 15%;
+  height: 100vh;
+  font-size: 4em;
+  background: grey;
+}
+#tabs{
+  width: 70%;
+  padding: 1.5%;
+}
