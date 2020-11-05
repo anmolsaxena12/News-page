@@ -1,22 +1,111 @@
-.carousel{
-  height: 330px;;
-  background-color: #BBB;
+@media (max-width: 727px) {
+  #top{
+    display: none;
+  }
+  #top-phone{
+    background:#ffd460;
+    text-align: center;
+    color: white;
+  }
+  #top-phone p{
+      background: rgba(180,180,180,0.6);
+  }
+}
+
+
+
+
+#top-phone{
+  display: none;
 
 }
-.card-img{
+.navbar #logo{
+  height: 2em;
+}
+
+#top{
+  text-align: center;
+  background-image: url("./images/large-screen-bg.png");
+  background-size:100vw;
+  height: 50vh;
+
+}
+
+#top p{
+  color:white;
+  background: rgba(180,180,180,0.6);
+  margin-top:4em;
+  font-size: 2em;
+}
+.top-logo{
+  height: 8em;
+}
+.navbar {
+  background: #f07b3f;
+  box-shadow: 0 8px 10px rgba(0,0,0,0.1);
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:hover {
+  color: #FFFFFF;
+}
+
+.navbar .active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-nav{
+  margin-left:2rem;
+
+}
+.carousel {
+  height: 330px;
+  ;
+  z-index: 1;
+}
+
+.carousel .card-body {
+  z-index: 0;
+  background-color: #ffd460;
+}
+
+.card-img {
   height: 200px;
 }
+.card-body{
+    background: rgba(255, 0, 0, 0.2);
+}
 
-.ad, #tabs{
+#tabs {
+  padding: 2%;
   float: left;
 }
-.ad{
-  width: 15%;
-  height: 100vh;
-  font-size: 4em;
-  background: grey;
+
+#tabs .nav .active {
+  background: rgba(255, 0, 0, 0.2);
 }
-#tabs{
-  width: 70%;
-  padding: 1.5%;
+
+#tabs .nav {
+  background: #ea5455;
+}
+
+#tabs a:link, #tabs a:visited, #tabs a:hover {
+  color: #FFF;
+}
+
+.ad, #tabs {
+  float: left;
+}
+
+.ad {
+  font-size: 4em;
+  background:#EEE;
+}
+#footer{
+  background: #2d4059;
+  color: white;
+  text-align: center;
+}
+
+h5 {
+  color: red;
 }
